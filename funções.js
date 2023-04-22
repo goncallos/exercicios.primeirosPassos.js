@@ -1,7 +1,7 @@
 function main () {
 }
 
-(function main() {
+(function () {
     const peso = 75;
     const altura = 1.75;
 
