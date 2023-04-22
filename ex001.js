@@ -1,15 +1,14 @@
 function escrevaMeuNome(nome) {
-    console.log('Meu nome é ' + nome);
+    return 'Meu nome é ' + nome;
 }
-escrevaMeuNome('leandro');
-escrevaMeuNome('murilo')
+
 
 function verificaridade(idade) {
     if (idade >= 18) {
-        console.log('maior');
+        console.log(escrevaMeuNome('Leandro') + 'Sou maior de idade');
     }else {
-        console.log('menor')
+        console.log(escrevaMeuNome('Murilo') + 'sou menor de idade')
     }
 }
 
-verificaridade(12)
+verificaridade(11)
